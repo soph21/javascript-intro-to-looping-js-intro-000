@@ -15,12 +15,13 @@ function whileLoop(n){
 }
 
   function doWhileLoop(num){
-    function incrementVariable() {
+    function incrementVariable()
+    {
       num = 0
       console.log("I run once regardless")
     }
       do {
-      console.log ("I run once regardless")}
+      console.log ("I run once regardless")
       while (incrementVariable() < num)
     }
   }

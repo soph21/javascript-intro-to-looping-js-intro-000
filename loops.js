@@ -18,7 +18,6 @@ function whileLoop(n){
     function incrementVariable()
     {
     i = i+1
-      num = 0
       console.log("I run once regardless")
     }
       do {
